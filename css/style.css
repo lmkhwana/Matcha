@@ -1,0 +1,368 @@
+.banner-home {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* background-image: url(../img/blue_background.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* background-image: url(../img/blue_background.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: Gabriola;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.class {
+    color: rgb(28, 115, 255);
+    font-family: Gabriola;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 2.2vw;
+}
+
+.htag {
+    font-family: Gabriola;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 3vw!important;
+}
+.home-title {
+    position: absolute;
+    color: whitesmoke;
+    font-family: Arial;
+    text-shadow: 2px 2px 1px grey;
+    z-index: 1;
+    font-size: 7vw;
+    top: 300px;
+    right: 5%;
+}
+
+.btn-home {
+    position: absolute;
+    z-index: 2;
+    font-family: Arial;
+    top: 450px;
+    height: 50px;
+    right: 20%;
+}
+
+.MainPhoto {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 100px;
+    background-color: transparent;
+}
+.MainPhoto2 {
+    position: absolute;
+    width: 80%;
+    left: 0%;
+    top: 60%;
+    background-color: transparent;
+}
+
+
+.left-container {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 0;
+    top: 0;
+    /*background-color: black;*/
+}
+
+.middle-container {
+    position: relative;
+    height: 100%;
+    width: 80%;
+    left: 25%;
+    top: -5%;
+    /*background-color: green;*/
+}
+
+.middle-container h1 {
+    position: absolute;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px grey;
+    font-family: Gabriola;
+    font-style: italic;
+    font-size: 3vw;
+    top: 95px;
+}
+
+.infos-container {
+    position: absolute;
+    top: 170px;
+    width: 70%;
+    height: 50%;
+}
+
+.infos-container h4 span {
+    color: rgb(28, 115, 255);
+    font-family: Gabriola;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 2.2vw;
+}
+
+.left-m {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    /*background-color: black;*/
+}
+
+.left-img {
+    position: absolute;
+    top: 150px;
+    right: 15%;
+    z-index: 0;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.left-img2 {
+    position: absolute;
+    top: 450px;
+    right: 15%;
+    z-index: 0;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.like {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+    background-image: url(../img/yes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 10%;
+    top: 150px;
+}
+.dislike {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+    background-image: url(../img/no.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 10%;
+    top: 200px;
+}
+
+.profile_elem {
+    left: 40%;
+    width: 100%;
+    height: 50%;
+}
+.btn-intention {
+    position: relative;
+    top: 1%;
+    width: 100%;
+    height: 80%;
+}
+
+.middle-m {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    height: 100%;
+    /*background-color: white;*/
+}
+
+.middle-m img {
+    position: relative;
+    top: 250px;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+.right-m {
+    position: absolute;
+    width: 30%;
+    right: 0;
+    height: 100%;
+   /* background-color: black;*/
+}
+
+.profile-box {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    border-radius: 20px;
+    background: #4c8b9e;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-box img {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    z-index: 999;
+}
+
+.profile-box-h1{
+    position: absolute;
+    z-index: 4;
+    top: 20px;
+    left: 190px!important;
+}
+
+.profile-box-h2{
+    position: absolute;
+    z-index: 4;
+    top: 60px;
+    left: 190px!important;
+}
+
+.profile-box-h2-pts{
+    position: absolute;
+    z-index: 4;
+    top: 100px;
+    left: 190px!important;
+}
+
+.profile-box {
+    font-size: 1vw;
+}
+
+.like-btn {
+    width: 100%;
+    background-color: #e81239!important;
+}
+
+.block-btn {
+    font-size: 1vw!important;
+    color: black!important;
+    width: 40%;
+    background-color: red!important;
+
+}
+
+.report-btn {
+    font-size: 1vw!important;
+    color: black!important;
+    width: 40%;
+    background-color: #fffb2b!important;
+}
+#hideMe {
+    -moz-animation: cssAnimation 0s ease-in 3s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 3s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 3s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 3s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+        background-color: transparent;
+        color: transparent;
+        border: 0;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+
+.chatbox {
+    width: 100%;
+    height: 80%;
+}
+
+.contact_list {
+    width: 30%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.chat_message_list {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background: #91aaaa;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    top: 0;
+    right: -1%;
+     overflow-y: scroll;
+}
+
+.chat_message_box {
+    position: absolute;
+    width: 70%;
+    height: 12%;
+    border-radius: 10px;
+    top: 71%;
+    right: -1%;
+}
+
+.contact {
+    border-radius: 0;
+    border: none;
+    width: 95%;
+    height: 10%;
+    background:#4c8b9e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    text-align: center;
+    color:white;
+    padding: 10% 0;
+}
+
+.me {
+    border: 1px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    float: right;
+    width: 51%;
+}
+
+.other {
+    border: 1px solid black;
+    width: 51%;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    float: left;
+}
